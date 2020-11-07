@@ -60,9 +60,15 @@
         font-size: 17px;
     }
 
-    #saru,#uma,#ushi,#hitsuji,#panda,#tora {
+    #saru,
+    #uma,
+    #ushi,
+    #hitsuji,
+    #panda,
+    #tora {
         display: none;
     }
+
 </style>
 
 <script>
@@ -79,29 +85,24 @@
         if (obj2.value == "saru") {
             allNone();
             document.getElementById("saru").style.display = "block";
-        }
-        else if (obj2.value == "uma") {
+        } else if (obj2.value == "uma") {
             allNone();
             document.getElementById("uma").style.display = "block";
-        }
-        else if (obj2.value == "ushi") {
+        } else if (obj2.value == "ushi") {
             allNone();
             document.getElementById("ushi").style.display = "block";
-        }
-        else if (obj2.value == "hitsuji") {
+        } else if (obj2.value == "hitsuji") {
             allNone();
             document.getElementById("hitsuji").style.display = "block";
-        }
-        else if (obj2.value == "panda") {
+        } else if (obj2.value == "panda") {
             allNone();
             document.getElementById("panda").style.display = "block";
-        }
-        else if (obj2.value == "tora") {
+        } else if (obj2.value == "tora") {
             allNone();
             document.getElementById("tora").style.display = "block";
         }
-        
-        
+
+
     }
 
     function allNone() {
@@ -120,6 +121,7 @@
         document.getElementById("content").style.display = "block";
         document.getElementById("maincontent").style.display = "block";
     }
+
 </script>
 
 <body>
@@ -244,5 +246,6 @@
         <input id="btn" type="button" value="다시하기" onclick="init()">
     </div>
 
+</body>
 
-</body></html>
+</html>
